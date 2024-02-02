@@ -1,62 +1,68 @@
-*{
-    margin:0;
+* {
+  margin: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap:50px;
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
 }
-svg{
-    margin-top:25px;
-    height:25vh;
-    margin-top:150px;
-    path{
-        visibility:hidden;
-    }
-}
-
-p{font-family: 'consolas';}
-#used-letters{
-    display:flex;
-    flex-direction: row;
-    gap: 25px;
-    height: 50px;
-    p{
-        font-size:40px;
-        font-family: 'verdana';
-        color:crimson;
-    }
-}
-#letters{
-    display:flex;
-    flex-direction:row;
-    gap:10px;
-    div{
-        background-color: rgb(196, 196, 196);
-        padding:15px;
-        border-bottom: 5px solid black;
-        p{
-        font-family: 'consolas';
-        font-size: 33px;
-        visibility: hidden;
-        }
-    }
-}
-#gamestatus{
-    font-size:33px;
-}
-
-button{
-    padding:25px 50px;
-    cursor: pointer;
-    font-size:25px;
-    border-radius: 25px;
+svg {
+  margin-top: 25px;
+  height: 25vh;
+  margin-top: 150px;
+  path {
     visibility: hidden;
-    transition: all 0.33s linear;
+  }
 }
-button:hover{
-    background-color: rgb(98, 98, 139);
+
+p {
+  font-family: "consolas";
+}
+#used-letters {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  height: 50px;
+  p {
+    font-size: 40px;
+    font-family: "verdana";
+    color: crimson;
+  }
+}
+#letters {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  div {
+    background-color: rgb(196, 196, 196);
+    padding: 15px;
+    border-bottom: 5px solid black;
+    p {
+      font-family: "consolas";
+      font-size: 33px;
+      visibility: hidden;
+    }
+  }
+}
+#gamestatus {
+  font-size: 33px;
+  b {
+    color: darkgreen;
+    font-family: "verdana";
+    font-size: 55px;
+  }
+}
+
+button {
+  padding: 25px 50px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 25px;
+  visibility: hidden;
+  transition: all 0.33s linear;
+}
+button:hover {
+  background-color: rgb(98, 98, 139);
 }
